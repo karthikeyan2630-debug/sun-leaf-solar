@@ -12,6 +12,10 @@ npm run dev
 
 The AI assistant now sends every user question to the `/api/ai-consultant` endpoint and returns the Gemini response. It no longer displays a hard-coded fallback answer when Gemini is unavailable.
 
+## Vercel deployment
+
+Vercel serves the chatbot through `api/ai-consultant.ts`; it does not run the local Express development server (`server.ts`). In your Vercel project, open **Settings → Environment Variables**, add `GEMINI_API_KEY` with your real Gemini API key for **Production** (and Preview if needed), then redeploy. Never commit the key to GitHub.
+
 If the key is missing or invalid, the chat displays the actual configuration/API error so it can be fixed instead of repeating the same engineering answer.
 
 

@@ -1,0 +1,6 @@
+{
+  "name": "Sun Leaf Solar",
+  "description": "Precision-grade solar engineering solutions for industrial, commercial, and residential applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

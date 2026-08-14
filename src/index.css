@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #f9f9fc;
+    color: #1a1c1e;
+  }
+  
+  .font-mono-data, .font-data-mono {
+    font-family: 'IBM Plex Sans', monospace;
+  }
+  
+  .font-label {
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.glass-panel-dark {
+  background: rgba(20, 25, 30, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(0, 72, 112, 0.35) 0%, rgba(0, 29, 49, 0.85) 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #f9f9fc 0%, #cce5ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px -6px rgba(0, 72, 112, 0.12), 0 8px 12px -6px rgba(0, 0, 0, 0.08);
+}
+
+.bg-pattern {
+  background-color: #f9f9fc;
+  background-image: radial-gradient(#d5d7e0 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f9f9fc;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfc7d2;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #006194;
+}

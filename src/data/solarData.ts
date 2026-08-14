@@ -142,7 +142,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
   {
     id: 'power-electronics-rack',
     title: 'Power Electronics Hub',
-    location: 'Tech Corridor HQ',
+    location: 'Sirumugai, Coimbatore Dt.',
     capacity: '120kW / 240kWh Storage',
     systemType: 'Microgrid & ESS Storage',
     description: 'Tier-1 inverters and modular storage racks delivering uninterrupted emergency microgrid power for critical datacenter operations.',
@@ -254,8 +254,8 @@ export const COMPANY_INFO = {
   tagline: 'Engineering Excellence. ISO 9001:2015 Certified.',
   isoBadge: 'ISO 9001:2015 Certified Quality Management System',
   address: 'Amman Complex, Theatre Medu, Sirumugai - 641 302, Coimbatore Dt.',
-  phone: '+91 (080) 4567-8900',
-  whatsapp: '+919876543210',
-  email: 'engineering@sunleafsolar.com',
+  phone: '+91 99443 38532 / +91 90434 27215',
+  whatsapp: '+919944338532',
+  email: 'sunleafsolar2022@gmail.com',
   workingHours: 'Mon - Sat: 8:30 AM - 6:30 PM IST'
 };

@@ -80,10 +80,10 @@ export const AboutView: React.FC<AboutViewProps> = ({
             Headquarters & R&D Hub
           </span>
           <h2 className="text-2xl md:text-3xl font-bold text-[#004870] mt-1 mb-4">
-            Bangalore Technical Center
+            Coimbatore Technical Center
           </h2>
           <p className="text-sm text-slate-600 leading-relaxed mb-6">
-            Located in Tech Corridor, Sector 4, Bangalore, our headquarters houses solar array load testing setups, string voltage telemetry labs, and our centralized 24/7 solar monitoring center.
+            Located at Amman Complex, Theatre Medu, Sirumugai – 641 302, Coimbatore Dt., our headquarters supports solar array testing, technical engineering consultations, and project coordination.
           </p>
 
           <div className="flex gap-4">

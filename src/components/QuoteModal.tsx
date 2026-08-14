@@ -21,7 +21,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
     propertyType: 'industrial',
     estimatedBudget: '$10,000 - $50,000',
     monthlyBill: '$1,000 / mo',
-    address: 'Bangalore, Karnataka',
+    address: '',
     systemInterest: ['Grid-Tied Solar Array', '580W TOPCon Panels'],
     additionalNotes: '',
   });
